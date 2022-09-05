@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "sass": "sass --watch ./src/sass/global.scss ./src/style.css"
+    "sass": "sass --watch ./src/sass/global.scss ./style.css"
   },
   "devDependencies": {
     "typescript": "^4.6.4",
