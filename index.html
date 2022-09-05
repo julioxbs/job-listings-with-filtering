@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Job listings with filtering</title>
+  </head>
+  <body>
+    <header>
+      <div id="filter__tags" class="box__shadow hidden">
+        <ul class="list__tags filter" id="filter"></ul>
+        <p id="clear__btn">Clear</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="lists__jobs"></section>
+    </main>
+
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>
